@@ -6,4 +6,3 @@ ztncui中文版
 ![输入图片说明](images/2.png)
 ![输入图片说明](images/3.png)
 ![输入图片说明](images/4.png)
-觉得好用请点击下右上角 Star 你的支持是我维护的动力，欢迎fork或者pull Requests
