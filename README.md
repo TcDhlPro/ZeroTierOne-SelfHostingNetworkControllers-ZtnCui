@@ -17,11 +17,11 @@ wget https://raw.githubusercontent.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkCo
  [点击本链接下载发行版](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases)
 
 相关截图：
-![输入图片说明](images/0.png)
-![输入图片说明](images/1.png)
-![输入图片说明](images/2.png)
-![输入图片说明](images/3.png)
-![输入图片说明](images/4.png)
+![输入图片说明](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/tree/v1.0.0/images/0.png)
+![输入图片说明](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/tree/v1.0.0/images/1.png)
+![输入图片说明](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/tree/v1.0.0/images/2.png)
+![输入图片说明](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/tree/v1.0.0/images/3.png)
+![输入图片说明](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/tree/v1.0.0/images/4.png)
 
 服务器安装完成后会在脚本执行的目录 例如/root下生成planet文件
 
