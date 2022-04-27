@@ -1,12 +1,11 @@
 [key-networks/ztncui]汉化及一键安装ZeroTier控制中心:
 
-centos redhat系列安装:
+centos redhat与debain ubuntu 系列:
+- 全自动安装
+- 自动识别主机系统
+- 自动识别主机IP,切换对应的下载节点
 ```
-wget https://raw.githubusercontent.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/v1.0.0/SetUpScript/zertotier_planet_redhat.sh && chmod +x zertotier_planet_redhat.sh && ./zertotier_planet_redhat.sh 
-```
-debain ubuntu 系列安装:
-```
-wget https://raw.githubusercontent.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/v1.0.0/SetUpScript/zertotier_planet_debain.sh && chmod +x zertotier_planet_debain.sh && ./zertotier_planet_debain.sh 
+wget https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/AutoInstall/install_zertotier_planet.sh && chmod +x install_zertotier_planet.sh && ./install_zertotier_planet.sh 
 ```
 
 在官方的仓库 [https://github.com/key-networks/ztncui.git](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb格式和rpm安装包
