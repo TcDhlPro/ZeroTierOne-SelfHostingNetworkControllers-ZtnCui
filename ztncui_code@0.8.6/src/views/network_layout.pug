@@ -1,0 +1,26 @@
+//-
+  ztncui - ZeroTier network controller UI
+  Copyright (C) 2017-2021  Key Networks (https://key-networks.com)
+  Licensed under GPLv3 - see LICENSE for details.
+
+extends controller_layout
+
+block content
+  if error
+     b #{error}
+  else
+    .row
+      .col-sm-10
+        block network_title
+          h2
+            | Network 
+            a(href='/controller/network/' + network.nwid) #{network.name}
+            |  (#{network.nwid}):
+        block title
+          if title
+            h3= title
+
+      .col-sm-2
+        h2.right
+          a.btn.btn-default(href=navigate.whence role='button') Back
+    block net_content

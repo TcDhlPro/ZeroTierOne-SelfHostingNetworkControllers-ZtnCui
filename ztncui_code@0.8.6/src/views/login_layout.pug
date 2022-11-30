@@ -1,0 +1,17 @@
+//-
+  ztncui - ZeroTier network controller UI
+  Copyright (C) 2017-2021  Key Networks (https://key-networks.com)
+  Licensed under GPLv3 - see LICENSE for details.
+
+extends head_layout
+
+block nav_login
+  a(href='/login')
+    span.glyphicon.glyphicon-log-in
+    |  Login
+
+block body_content
+  .container(style='margin-top:50px')
+    .row
+      .col-sm-12
+        block login_content

@@ -1,0 +1,7 @@
+package-lock.json
+etc/passwd
+etc/storage/
+node_modules/
+*.swp
+.env
+ztncui
