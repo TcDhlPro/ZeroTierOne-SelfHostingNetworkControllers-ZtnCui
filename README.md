@@ -36,3 +36,4 @@ wget https://fastly.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkContr
 - 自行部署的Zerotier根服务器,服务端在打印出的节点信息中,应该只显示有效连接的客户端
 - 客户端替换planet文件后,在不加入自己根服务器网络的情况下, 打印出的节点列表也是空的
 - 加入自己根服务器网络后```zerotier-cli listpeers```客户端执行命令查看节点信息, 如果Planet只有一个,且IP为自己服务器,则安装正确
+test
