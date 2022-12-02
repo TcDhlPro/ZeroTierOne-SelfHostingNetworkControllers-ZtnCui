@@ -51,7 +51,7 @@ cd /root/Auto_Install_ZtncuiForZerotier
 
 ---
 
-## 新版ZtnCui控制器相关截图：
+## 新版ZtnCui(0.8.6)控制器相关截图：
 ![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
 ![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
 ![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
@@ -59,18 +59,18 @@ cd /root/Auto_Install_ZtncuiForZerotier
 
 ---
 
-客户端替换planet
+### 客户端替换Planet文件
 - 服务器安装完成后会在脚本执行的目录找到planet文件,例如/root下生成的planet文件
 - 或者使用```/var/lib/zerotier-one```目录中的planet文件
 
-重启服务
+### 重启服务
 - linux重启Zerotier: ```service zerotier-one restart```
 - win系统重启Zerotier: ```需要在服务中重启ZeroTier One这个服务```
 
-加入自建的根服务器网络
+### 加入自建的根节点网络
 - 客户端执行```zerotier-cli join 网络ID```, 之后就可以在web控制中心找到设备。
 
-特别注意:安装成功后会变更服务端默认的9993端口为10802
+### 特别注意:安装成功后会变更ZeroTier默认的9993端口为你自己设定的端口
 - 初始安装成功后,``` zerotier-cli listpeers```服务端执行命令查看节点列表,如果打印出的节点列表是空的,则安装正确
 - 无论是什么样的安装方法,在初始安装完成后打印出来如果有其他节点信息,都是错误的
 - 自行部署的Zerotier根服务器,服务端在打印出的节点信息中,应该只显示有效连接的客户端
