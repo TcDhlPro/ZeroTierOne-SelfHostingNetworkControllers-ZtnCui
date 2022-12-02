@@ -1,23 +1,45 @@
-[key-networks/ztncui]汉化及一键安装ZeroTier控制中心:
+### [key-networks/ztncui]汉化及一键安装ZtnCui控制器 - ZeroTier根节点服务端:
+---
 
-centos redhat与debain ubuntu 系列:
+# 适配Debian10.10:
 - 全自动安装
 - 自动识别主机系统
 - 自动识别主机IP,切换对应的下载节点
-```
-wget https://fastly.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/AutoInstall/install_zertotier_planet@v1.0.1.sh && chmod +x install_zertotier_planet@v1.0.1.sh && ./install_zertotier_planet@v1.0.1.sh 
-```
 
-在官方的仓库 [https://github.com/key-networks/ztncui.git](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb格式和rpm安装包
+# 注意事项及参考:
+- 建议用个干干净净的Debian10系统进行安装 ZtnCui控制器 - 根节点服务端
+- 测试用的服务器系统为: Debian10.10 64位
+- 提供的一键安装脚本只做了适配Debian10系统
+- 如果想用Centos, 请自行解决环境搭建相关的问题
+  - 程序名: [ztncui-0.8.6-1.x86_64.rpm](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/ztncui-0.8.6-1.x86_64.rpm)
+  - 证书名: [RPM-KEY-TcDhlProForZtnCui](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui)
+- 新版本的ZtnCui控制器完全汉化, 会在空闲时间慢慢完成
 
- [点击本链接下载发行版](https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases)
+# 安装步骤
+- 进入目录: ```cd ~```
+- 下载脚本: ```wget https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz```
+- 解包: ```tar -zxvf Auto_Install_ZtncuiForZerotier.tar.gz```
+- 给脚本文件夹权限: ```chmod -R 775 Auto_Install_ZtncuiForZerotier```
+- 进入目录: ```cd /root/Auto_Install_ZtncuiForZerotier```
+- 启动脚本进行自动化安装: ``` ./Auto_Install_ZtncuiForZerotier```
+- 初次安装时, 脚本一般都会在倒计时后, 主动断开ssh连接, 会有提示, 是为了重新配置环境
+- 断开ssh连接后, 重新连接服务器
+- 会有一小段时间配置环境......
+- 终端会提示你输入两个自定义端口```[ZtnCui的端口] [ZeroTier的TCP/UDP端口]```
+- 要记得在防火墙放开这两个端口
+- 等安装完成, 访问ZtnCui后台地址进行查看
 
-相关截图：
-![输入图片说明](https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/images/0.png)
-![输入图片说明](https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/images/1.png)
-![输入图片说明](https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/images/2.png)
-![输入图片说明](https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/images/3.png)
-![输入图片说明](https://cdn.jsdelivr.net/gh/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui@v1.0.0/images/4.png)
+在官方仓库 [key-networks/ztncui](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb和rpm格式(附带了证书RPM-KEY-TcDhlProForZtnCui)的软件包
+
+---
+
+## 新版ZtnCui控制器相关截图：
+![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
+![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
+![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
+![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_4.png)
+
+---
 
 客户端替换planet
 - 服务器安装完成后会在脚本执行的目录找到planet文件,例如/root下生成的planet文件
