@@ -16,12 +16,30 @@
 - 新版本的ZtnCui控制器完全汉化, 会在空闲时间慢慢完成
 
 # 安装步骤
-- 进入目录: ```cd ~```
-- 下载脚本: ```wget https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz```
-- 解包: ```tar -zxvf Auto_Install_ZtncuiForZerotier.tar.gz```
-- 给脚本文件夹权限: ```chmod -R 775 Auto_Install_ZtncuiForZerotier```
-- 进入目录: ```cd /root/Auto_Install_ZtncuiForZerotier```
-- 启动脚本进行自动化安装: ``` ./Auto_Install_ZtncuiForZerotier```
+- 进入目录: 
+```shell 
+cd ~
+```
+- 下载脚本: 
+```shell
+wget https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz
+```
+- 解包: 
+```
+shell tar -zxvf Auto_Install_ZtncuiForZerotier.tar.gz
+```
+- 给脚本文件夹权限: 
+```shell 
+chmod -R 775 Auto_Install_ZtncuiForZerotier
+```
+- 进入目录: 
+```shell 
+cd /root/Auto_Install_ZtncuiForZerotier
+```
+- 启动脚本进行自动化安装: 
+```shell 
+./Auto_Install_ZtncuiForZerotier
+```
 - 初次安装时, 脚本一般都会在倒计时后, 主动断开ssh连接, 会有提示, 是为了重新配置环境
 - 断开ssh连接后, 重新连接服务器
 - 会有一小段时间配置环境......
