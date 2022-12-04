@@ -42,6 +42,8 @@ cd /root/Auto_Install_ZtncuiForZerotier
 ```
 - 初次安装时, 脚本一般都会在倒计时后, 主动断开ssh连接, 会有提示, 是为了重新配置环境
 - 断开ssh连接后, 重新连接服务器
+  - 进入目录```cd /root/Auto_Install_ZtncuiForZerotier```
+  - 运行脚本```./Auto_Install_ZtncuiForZerotier```
 - 会有一小段时间配置环境......
 - 终端会提示你输入两个自定义端口```[ZtnCui的端口] [ZeroTier的TCP/UDP端口]```
 - 要记得在防火墙放开这两个端口
