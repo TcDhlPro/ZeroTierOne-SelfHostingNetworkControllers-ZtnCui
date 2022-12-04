@@ -47,7 +47,7 @@ cd /root/Auto_Install_ZtncuiForZerotier
 - 会有一小段时间配置环境......
 - 终端会提示你输入两个自定义端口```[ZtnCui的Https端口] [ZeroTier的TCP/UDP端口]```
   - 输入```3000```以外未占用的端口, 因为3000端口是被默认用作ZtnCui-Http
-- 要记得在防火墙放开这两个端口
+- 要记得在防火墙放开```[ZtnCui的Http端口]```或```[ZtnCui的Https端口]```和```[ZeroTier的TCP/UDP端口]```
 - 等安装完成, 访问ZtnCui后台地址进行查看
 
 在官方仓库 [key-networks/ztncui](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb和rpm格式(附带了证书RPM-KEY-TcDhlProForZtnCui)的软件包
