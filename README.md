@@ -45,7 +45,8 @@ cd /root/Auto_Install_ZtncuiForZerotier
   - 进入目录```cd /root/Auto_Install_ZtncuiForZerotier```
   - 运行脚本```./Auto_Install_ZtncuiForZerotier```
 - 会有一小段时间配置环境......
-- 终端会提示你输入两个自定义端口```[ZtnCui的端口] [ZeroTier的TCP/UDP端口]```
+- 终端会提示你输入两个自定义端口```[ZtnCui的Https端口] [ZeroTier的TCP/UDP端口]```
+  - 输入```3000```以外未占用的端口, 因为3000端口是被默认用作ZtnCui-Http
 - 要记得在防火墙放开这两个端口
 - 等安装完成, 访问ZtnCui后台地址进行查看
 
