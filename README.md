@@ -25,8 +25,8 @@ cd ~
 wget https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz
 ```
 - 解包: 
-```
-shell tar -zxvf Auto_Install_ZtncuiForZerotier.tar.gz
+```shell
+tar -zxvf Auto_Install_ZtncuiForZerotier.tar.gz
 ```
 - 给脚本文件夹权限: 
 ```shell 
