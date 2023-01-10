@@ -12,7 +12,7 @@
 - 提供的一键安装脚本只做了适配Debian10系统
 - 如果想用Centos, 请自行解决环境搭建相关的问题
   - 程序名: [ztncui-0.8.6-1.x86_64.rpm](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/ztncui-0.8.6-1.x86_64.rpm)
-  - 证书名: [RPM-KEY-TcDhlProForZtnCui](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui)
+  - 证书名: [RPM-KEY-TcDhlProForZtnCui@20230110](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui@20230110)
 - 新版本的ZtnCui控制器完全汉化, 会在空闲时间慢慢完成
 
 # 安装步骤
@@ -53,12 +53,23 @@ cd /root/Auto_Install_ZtncuiForZerotier
 在官方仓库 [key-networks/ztncui](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb和rpm格式(附带了证书RPM-KEY-TcDhlProForZtnCui)的软件包
 
 ---
+## 新版ZtnCui(0.8.6)控制器相关截图(汉化完成度98%)：
+ - 编辑日期: 2023年01月10日
+ - 98%是因为有些没必要汉化
 
-## 新版ZtnCui(0.8.6)控制器相关截图：
-![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
-![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
-![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
-![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_4.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_5.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_6.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_7.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_8.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_9.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_10.png)
+## 新版ZtnCui(0.8.6)控制器相关截图(未完全汉化阶段)：
+ - 编辑日期: 2022年
+
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
+![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_4.png)
 
 ---
 
