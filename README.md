@@ -11,8 +11,8 @@
 - 测试用的服务器系统为: Debian10.10 64位
 - 提供的一键安装脚本只做了适配Debian10系统
 - 如果想用Centos, 请自行解决环境搭建相关的问题
-  - 程序名: [ztncui-0.8.6-1.x86_64.rpm](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/ztncui-0.8.6-1.x86_64.rpm)
-  - 证书名: [RPM-KEY-TcDhlProForZtnCui@20230110](https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui@20230110)
+  - 程序名: [ztncui-0.8.6-1.x86_64.rpm](https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/ztncui-0.8.6-1.x86_64.rpm)
+  - 证书名: [RPM-KEY-TcDhlProForZtnCui@20230110](https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui@20230110)
 - <s>新版本的ZtnCui控制器完全汉化, 会在空闲时间慢慢完成</s>
 - 汉化已完成 !
 
@@ -23,7 +23,7 @@ cd ~
 ```
 - 下载脚本: 
 ```shell
-wget https://agent-gh.gethub.tk/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz
+wget https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/Auto_Install_ZtncuiForZerotier.tar.gz
 ```
 - 解包: 
 ```shell
