@@ -58,19 +58,19 @@ cd /root/Auto_Install_ZtncuiForZerotier
  - 编辑日期: 2023年01月10日
  - 98%是因为有些没必要汉化
 
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_5.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_6.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_7.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_8.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_9.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_10.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_5.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_6.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_7.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_8.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_9.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_10.png)
 ## 新版ZtnCui(0.8.6)控制器相关截图(未完全汉化阶段)：
  - 编辑日期: 2022年
 
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
-![输入图片说明](https://agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_4.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_1.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_2.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_3.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_4.png)
 
 ---
 
