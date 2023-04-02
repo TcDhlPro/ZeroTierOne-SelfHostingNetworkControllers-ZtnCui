@@ -12,7 +12,7 @@
 - 提供的一键安装脚本只做了适配Debian10系统
 - 如果想用Centos, 请自行解决环境搭建相关的问题
   - 程序名: [ztncui-0.8.6-1.x86_64.rpm](https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/ztncui-0.8.6-1.x86_64.rpm)
-  - 证书名: [RPM-KEY-TcDhlProForZtnCui@20230401](https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui@20230401)
+  - 证书名: [RPM-KEY-TcDhlProForZtnCui@20230402](https://agent-github.08w80.com/https://github.com/TcDhlPro/ZeroTierOne-SelfHostingNetworkControllers-ZtnCui/releases/download/v1.0.0/RPM-KEY-TcDhlProForZtnCui@20230402)
 - <s>新版本的ZtnCui控制器完全汉化, 会在空闲时间慢慢完成</s>
 - 汉化已完成 !
 
@@ -54,6 +54,16 @@ cd /root/Auto_Install_ZtncuiForZerotier
 在官方仓库 [key-networks/ztncui](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb和rpm格式(附带了证书RPM-KEY-TcDhlProForZtnCui)的软件包
 
 ---
+## 修复两项内容
+ - 编辑日期: 2023年04月02日
+ - 修复网络界面中, `节点地址`显示多行的Bug
+ - 修复上一版本在网络界面中, 出现`Cannot read properties of undefined (reading "address")`这个错误
+ - 修复执行安装程序时, 出现类似`UnicodeEncodeError: 'latin-1' codec can't encode characters in position 8-13: ordinal not in range(256)`的错误
+
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_11.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_12.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_13.png)
+![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/ZtnCui-images/ztncui086zh_ch_14.png)
 ## 新版ZtnCui(0.8.6)控制器相关截图(汉化完成度98%)：
  - 编辑日期: 2023年01月10日
  - 98%是因为有些没必要汉化
