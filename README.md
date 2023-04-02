@@ -1,7 +1,7 @@
 ### [key-networks/ztncui]汉化及一键安装ZtnCui控制器 - ZeroTier根节点服务端:
 ---
 
-# 适配Debian10.10:
+# 适配Debian10.10 / 10.13:
 - 全自动安装
 - 自动识别主机系统
 - 自动识别主机IP,切换对应的下载节点
