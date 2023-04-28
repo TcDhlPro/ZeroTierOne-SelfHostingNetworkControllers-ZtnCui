@@ -49,6 +49,7 @@ cd /root/Auto_Install_ZtncuiForZerotier
 - 终端会提示你输入两个自定义端口```[ZtnCui的Https端口] [ZeroTier的TCP/UDP端口]```
   - 输入```3000```以外未占用的端口, 因为3000端口是被默认用作ZtnCui-Http
 - 要记得在防火墙放开```[ZtnCui的Http端口]```或```[ZtnCui的Https端口]```和```[ZeroTier的TCP/UDP端口]```
+- 如果```[ZeroTier的```<span style="color:red;">TCP</span>或<span style="color:red;">UDP</span>```端口]```, 没有在你们服务器上的防火墙中放行, 或没有在安全组中放行, 或者只放行了其中一个, 客户端在替换Planet文件后,大概率是通讯失败的, 常见的情况是:加入自建的网络显示ok, 但服务端那边看不到任何客户端的连接
 - 等安装完成, 访问ZtnCui后台地址进行查看
 
 在官方仓库 [key-networks/ztncui](https://github.com/key-networks/ztncui.git) 基础上进行汉化并打包成可直接安装的linux包，包含deb和rpm格式(附带了证书RPM-KEY-TcDhlProForZtnCui)的软件包
